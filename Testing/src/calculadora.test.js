@@ -43,7 +43,7 @@ describe('Calculadora Mejorada', () => {
     });
 
     test('debería calcular el porcentaje correctamente', () => {
-        expect(calculadora.porcentaje(50, 200)).toBe(5);
+        expect(calculadora.porcentaje(50, 200)).toBe(25);
         expect(calculadora.porcentaje(30, 60)).toBe(50);
     });
 
