@@ -33,7 +33,7 @@ export default function Calculator() {
         <div className="col-md-4">
           <div className="card shadow-sm">
             <div className="card-body">
-              <h1 className="text-center mb-4">Sony</h1>
+              <h1 className="text-center mb-4">Calculadora</h1>
               <Display input={input} result={result} />
               <ButtonPanel
                 onButtonClick={handleButtonClick}
