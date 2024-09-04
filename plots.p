@@ -5,4 +5,4 @@ set size ratio 0.6
 set grid y
 set xlabel "peticiones"
 set ylabel "tiempo de respuesta (ms)"
-plot "resultado.csv" using 9 smooth sbezier with lines title "https://talonarios.cl/"
+plot "resultado.csv" using 9 smooth sbezier with lines title "https://obscure-garbanzo-qr77v449g6xh9vr6-3000.app.github.dev/"
