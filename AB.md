@@ -1,6 +1,6 @@
 # Resultados de la prueba de carga con Apache Benchmark
 
-## URL probada: https://obscure-garbanzo-qr77v449g6xh9vr6-3000.app.github.dev/
+## URL probada: http://talonarios.cl/
 
 - **Número de peticiones**: 100
 - **Peticiones concurrentes**: 20
@@ -12,48 +12,45 @@ This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking obscure-garbanzo-qr77v449g6xh9vr6-3000.app.github.dev (be patient).....done
+Benchmarking talonarios.cl (be patient).....done
 
 
-Server Software:        
-Server Hostname:        obscure-garbanzo-qr77v449g6xh9vr6-3000.app.github.dev
-Server Port:            443
-SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
-Server Temp Key:        X25519 253 bits
-TLS Server Name:        obscure-garbanzo-qr77v449g6xh9vr6-3000.app.github.dev
+Server Software:        Vercel
+Server Hostname:        talonarios.cl
+Server Port:            80
 
 Document Path:          /
-Document Length:        0 bytes
+Document Length:        14 bytes
 
 Concurrency Level:      20
-Time taken for tests:   0.223 seconds
+Time taken for tests:   0.111 seconds
 Complete requests:      100
 Failed requests:        0
 Non-2xx responses:      100
-Total transferred:      67571 bytes
-HTML transferred:       0 bytes
-Requests per second:    449.01 [#/sec] (mean)
-Time per request:       44.542 [ms] (mean)
-Time per request:       2.227 [ms] (mean, across all concurrent requests)
-Transfer rate:          296.29 [Kbytes/sec] received
+Total transferred:      16400 bytes
+HTML transferred:       1400 bytes
+Requests per second:    901.68 [#/sec] (mean)
+Time per request:       22.181 [ms] (mean)
+Time per request:       1.109 [ms] (mean, across all concurrent requests)
+Transfer rate:          144.41 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        8   13   6.4     11      42
-Processing:    12   21   7.5     19      50
-Waiting:       12   20   7.0     19      48
-Total:         21   34   9.4     32      61
+Connect:        5    6   1.2      6      12
+Processing:     8   10   1.7      9      15
+Waiting:        8   10   1.7      9      15
+Total:         13   16   2.0     16      24
 
 Percentage of the requests served within a certain time (ms)
-  50%     32
-  66%     35
-  75%     40
-  80%     42
-  90%     50
-  95%     54
-  98%     61
-  99%     61
- 100%     61 (longest request)
+  50%     16
+  66%     16
+  75%     17
+  80%     17
+  90%     20
+  95%     21
+  98%     22
+  99%     24
+ 100%     24 (longest request)
 ```
 
 ### Gráfico de tiempos de respuesta
